@@ -37,7 +37,7 @@ interface erc20 {
     event Transfer(address indexed from, address indexed to, uint tokens);
     event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
 }
-// Gardes Token 
+// Custom Token 
 contract CustomToken is erc20, SafeMath {
     string private _name;
     string private _symbol;
